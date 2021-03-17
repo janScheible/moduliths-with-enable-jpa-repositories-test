@@ -1,4 +1,4 @@
-package com.scheible.moduliths.test.enablejparepositories.first;
+package com.scheible.moduliths.test.enablejparepositories.second;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @ModuleTest(mode = BootstrapMode.DIRECT_DEPENDENCIES)
-public class FirstModuleTest {
+public class SecondModuleTest {
 	
 	@Test
 	public void testContext() {		
